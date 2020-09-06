@@ -1,0 +1,2 @@
+python merge.py /scratch/mastergdata/ind_3_6.txt /scratch/mastergdata/ind_11_14.txt /scratch/mastergdata/ind_3_14.txt &
+python merge.py /scratch/mastergdata/ind_19_22.txt /scratch/mastergdata/ind_27_34.txt /scratch/mastergdata/ind_19_34.txt
