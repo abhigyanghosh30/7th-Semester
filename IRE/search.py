@@ -6,38 +6,76 @@ stopwords = {'','redirect','nbsp','amp','the', 'myself', 'our', 'ours', 'ourselv
 st = SnowballStemmer('english')
 
 titles = {}
-rel_docs = []
+rel_docs = {}
+counts = {}
+
+
+with open('totaltitle.txt') as titlefile:
+    line = titlefile.readline()
+    while line!="":
+        terms = line.split(":")
+        titles[terms[0]]=terms[1].strip()
+        line = titlefile.readline()
+ndocs = len(titles.keys())
+
+def tf_idf(countword,countdoc):
+    return (1+log(countword))*(ndocs/countdoc)
 
 def load_index(searchterm,cat):
+    print(searchterm,cat)
     with open(searchterm[:2]+".txt") as indexfile:
+        if searchterm not in rel_docs:
+            rel_docs[searchterm]=set()
         for line in indexfile.readlines():
             words = line.split(':')
             if words[0]!=searchterm:
                 continue
-            for item in words[1].split(','):
+            r_docs = words[1].split(','):
+            for item in r_docs:
                 nums = re.split('\D',item)
                 types = re.split('\d+',item)
                 #check if that category is in this doc
                 if cat not in types:
                     continue
-                count = nums[types.index(cat)]
-                rel_docs.append({nums[0]:count})
-            
-                    
+                count = int(nums[types.index(cat)])
+                rel_docs[searchterm].add(nums[0])
+                counts[nums[0]]=tf_idf(count,len(r_docs))
+            return
+
 
 with open(sys.argv[1]) as inpf:
     line = inpf.readline()
     while line!= "":
-        terms = re.split('\W',line)
-        k = int(words[0])
-        words = []
-        for i in range(1,len(terms),2):
-            words.append([terms[i],terms[i+1]])
-        rel_docs = []
-        for term in terms:
-            #load all the indexes into the currindex
-            if term[1] in stopwords:
-                continue
-            load_index(term[1],term[0])
-        # sorted(rel_docs) do sorting of list here
-        line= inpf.readline()                
+        terms = re.split(',\s|:|\s',line)
+        k = int(terms[0])
+        words = {}
+        currind = terms[1]
+        for i in range(1,len(terms)):
+            if len(terms[i])==1:
+                words[terms[i]]=[]
+                currind=terms[i]
+            else:
+                words[currind].append(terms[i])
+        rel_docs = {}
+        counts = {}
+        for types in words:
+            for word in words[types]:
+                if word in stopwords:
+                    continue
+                load_index(st.stem(word.lower()),types)
+
+        l = 0
+        keys = list(rel_docs.keys())
+        inter = rel_docs[keys[0]]
+        for i in keys:
+            inter.intersection(rel_docs[i])
+        inter = list(inter)
+        inter.sort(key=lambda x: counts[x],reverse=True)
+        for item in inter:
+            print(item,titles[item])
+            l+=1
+            if l==k:
+                break
+        line= inpf.readline()
+
+
