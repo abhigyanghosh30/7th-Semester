@@ -42,10 +42,10 @@ for l=1:Nfr
   
   % LPC analysis
   r =  xcorr(sigLPC)% correlation
-  a =  lpc(sigLPC,OrderLPC) % LPC coef.
-  G =  % gain
-  %ex =  % inverse filter
-
+  [a,G] =  lpc(sigLPC,OrderLPC) % LPC coef.
+  ex = filter([0 -a(2:end)],1,sigLPC);
+  % gain
+  plot(1:100,sigLPC(end-100+1:end),1:100,ex(end-100+1:end),'--');grid;xlabel('Sample Number');ylabel('Amplitude');legend('Original signal','LPC estimate')
   % synthesis
   s = filter(G,a, ex);
   ens = sum(s.^2);   % get the short-time energy of the output
