@@ -1,0 +1,16 @@
+10, t:Commonwealth Games i:melbourne b:Stolenwealth c:sports
+10, b:Californication i:1999
+10, t:Zariski-Riemann c:Bernhard Riemann
+20, i:Andrey Savin b:Speedway World Cup
+10, t:john i:canada b:morrison
+20, t:American Airlines Flight b:crash
+10, t:love b:Arrows
+20, b:Toni Nadal i:Rafael Nadal
+5, b:witch mountain i:94 minutes
+10, b:Vendetta c:Films about fascism
+10, t:Alfa Romeo i:sports car
+3, b:V for Vendetta i:2006
+10, b:Speed of light c:Concepts in physics
+20, b:angus r:tories i:James Lee
+30, b:Taxicab 1729
+50, b:Marc Spector i:Marvel Comics c:1980 comics debuts

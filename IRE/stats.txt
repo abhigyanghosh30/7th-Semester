@@ -1,0 +1,3 @@
+Total Index Size: 11GB
+Number of files in which inverted_index is split: 35x35+1(to store title relations) = 1226
+Number of tokens in inverted_index = 28991660
