@@ -21,7 +21,7 @@ x = sig(2:n)-sig(1:n-1)
 y_1 = cumtrapz(cumtrapz(x))
 y_2 = cumtrapz(cumtrapz(x))
 
-m = floor(5*Fs/1000)
+m = floor(15*Fs/1000)
 
 y = []
 k = 1
@@ -30,4 +30,4 @@ for i=1+m:length(y_2)-m
     k=k+1
 end
 
-subplot(3,1,3);plot([1:length(y)]/Fs,y);title('5ms mean subtracted ZFF')
+subplot(3,1,3);plot([1:length(y)]/Fs,y);title('15ms mean subtracted ZFF')
