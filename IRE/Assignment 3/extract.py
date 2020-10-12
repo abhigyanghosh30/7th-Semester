@@ -9,8 +9,6 @@ sentences = []
 
 
 def train_tagger():
-    nltk.download('punkt')
-    nltk.download()
 
     tagged_set = 'hindi.pos'
     word_set = indian.sents(tagged_set)
@@ -40,26 +38,50 @@ def train_tagger():
 
 
 def get_tags(sent_to_be_tagged):
-    tokenized = nltk.word_tokenize(sent_to_be_tagged)
-    return pos_tagger.tag(tokenized)
+    # tokenized = nltk.word_tokenize(sent_to_be_tagged)
+    return pos_tagger.tag(sent_to_be_tagged)
 
 
 def read_sentences():
-    for file in os.listdir():
-        with open(file) as f:
-            sentences = []
+    for file in os.listdir('training-hindi'):
+        with open('training-hindi/'+file) as f:
             words = []
             currTag = []
             tags = []
             for line in f.readlines():
+                line = line.strip()
                 if line.startswith('</Sentence>'):
-                    sentences.append((words, tags))
-                elif line.startswith('<Sentence'):
+                    sentences.append([words, tags])
+                    continue
+                if line.startswith('<Sentence'):
                     words = []
                     tags = []
-
+                    continue
+                if line.startswith("<") or line == '':
+                    continue
                 attrs = line.split('\t')
-                if attrs[1] == "((":
-                    currTag.append(attrs[3])
-                elif attrs[1] == "))":
+                # print(attrs)
+
+                if line[0].isdigit():
+                    if attrs[1] == "((":
+                        currTag.append(attrs[-1])
+                    else:
+                        words.append(attrs[1])
+                        tags.append(currTag[-1])
+                elif attrs[0] == "))":
                     currTag.pop()
+
+    print(len(sentences))
+
+
+read_sentences()
+# train_tagger()
+# for sent in sentences:
+#     # sent.append(get_tags(sent[0]))
+#     print(sent[0])
+#     print(sent[1])
+for sent in sentences:
+    # print(sent[0])
+    for i in range(len(sent[0])):
+        if sent[1][i] != 'SSF':
+            print(sent[0][i], sent[1][i])
