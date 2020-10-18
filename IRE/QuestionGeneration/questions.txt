@@ -1,0 +1,105 @@
+What are needed to take input fromWe need some other instructions to perform the output tasks for example?	For example instructions are needed to take input fromWe need some other instructions to perform the output tasks.	instructions	2.8559688801434886
+What does the CPU of the IAScomputer consist of?	The CPU of the IAScomputer consists of a data processing unit and a program control unit.	of a data processing unit and a program control unit	2.7761770624484527
+What are instructions needed to take input fromWe need some other instructions to perform the output tasks for?	For example instructions are needed to take input fromWe need some other instructions to perform the output tasks.	for example	2.745662322081828
+What are instructions needed to take input fromWe need some other instructions to perform for example?	For example instructions are needed to take input fromWe need some other instructions to perform the output tasks.	the output tasks	2.738674049558665
+What are instructions needed to take need some other instructions to perform the output tasks for example?	For example instructions are needed to take input fromWe need some other instructions to perform the output tasks.	input fromWe	2.7209903677576546
+What are instructions needed to take input fromWe need to perform the output tasks for example? For example instructions are needed to take input fromWe need some other instructions to perform the output tasks.	some other instructions 2.7197394132726256
+When has come both from advances in the technology used to build computers andfrom innovation in computer design?	This rapid rate of improvement has come both from advances in the technology used to build computers andfrom innovation in computer design.	this rapid rate of improvement	2.703007644251621
+What may CPU have some additional registers for in addition?	In addition, CPU may have some additional registers for temporary storage of data.	for temporary storage of data	2.659706838454827
+What is the structure of IAS computer shown in?	The structure of IAS computer is shown in the next page.	in the next page	2.6196902726844162
+What may have some additional registers for temporary storage of data in addition?	In addition, CPU may have some additional registers for temporary storage of data.	CPU	2.5852277403312414
+What may CPU have some additional registers for temporary storage of data in?	In addition, CPU may have some additional registers for temporary storage of data.	in addition	2.5660792945434046
+Who is basically strings of 0s and 1s?	Thisinformation is basically strings of 0s and 1s.	Thisinformation	2.546323519125914
+What may CPU have for temporary storage of data in addition?	In addition, CPU may have some additional registers for temporary storage of data.	some additional registers	2.49116355010867
+What is other bigger junk of storage space known?	Other bigger junk of storage space is known asprimary memory or main memory.	asprimary memory or main memory	2.478817862623723
+What consists of a data processing unit and a program control unit?	The CPU of the IAScomputer consists of a data processing unit and a program control unit.	the CPU of the IAScomputer	2.4310434025037733
+What is Thisinformation basically strings of?	Thisinformation is basically strings of 0s and 1s.	of 0s and 1s	2.3943997042719087
+What is termed as primary memory or main memory module?	This memory unit is termed as primary memory or main memory module.	this memory unit	2.3881750880967285
+What does size of address bus depend on?	Size of address bus depends on the memory size.	on the memory size	2.366973622824146
+What is known asprimary memory or main memory?	Other bigger junk of storage space is known asprimary memory or main memory.	other bigger junk of storage space	2.365562085971138
+What is done by address of theWe need two operation to work with memory?	This is done by address of theWe need two operation to work with memory.	this	2.3402589431556526
+What are the basic functional units of computer made of?	The basic functional units of computer are made of electronics circuit and it works with electrical signal.	of electronics circuit	2.3202971163726005
+What works on two levels of signal?	Computer is a digital device, which works on two levels of signal.	the digital device	2.287848160963502
+What are CPU known as?	Some of them are inside CPU, which are known as register.	as register	2.2849173160847744
+What are known as register?	Some of them are inside CPU, which are known as register.	CPU	2.234188036361877
+What are inside CPU?	Some of them are inside CPU, which are known as register.	some of them	2.214909700702618
+What is shown in the next page?	The structure of IAS computer is shown in the next page.	the structure of IAS computer	2.1783205531293883
+What are made of electronics circuit?	The basic functional units of computer are made of electronics circuit and it works with electrical signal.	the basic functional units of computer	2.163813763004409
+What is Thisinformation basically?	Thisinformation is basically strings of 0s and 1s.	strings of 0s and 1s	2.1625835644104856
+What is a digital device?	Computer is a digital device, which works on two levels of signal.	Computer	2.1232184028684116
+What is knows as binary number system?	All thefunctionalities of computer can be captured with 0 and 1 and its theoretical background corresponds to two valuedWith the symbol 0 and 1, we have a mathematical system, which is knows as binary number system.	the mathematical system	2.121890509354999
+What is known as positive logic?	This is one convention, which is known as positive logic.	one convention	2.118584590985952
+What depends on the memory size?	Size of address bus depends on the memory size.	size of address bus	2.1172162804429466
+What works with electrical signal?	The basic functional units of computer are made of electronics circuit and it works with electrical signal.	computer	2.102429546724135
+What does the digital device work on?	Computer is a digital device, which works on two levels of signal.	on two levels of signal	2.079813731903203
+What are continuousin nature?	The analog signals are continuousin nature and digital signals are discrete in nature.	the analog signals	2.0541378549253317
+How many levels of signal as Highand Low do we say?	We say these two levels of signal as Highand Low.	these two levels of signal as Highand Low	2.0439405250436002
+What are discrete in nature?	The analog signals are continuousin nature and digital signals are discrete in nature.	digital signals	2.039516585764619
+What are digital signals discrete in?	The analog signals are continuousin nature and digital signals are discrete in nature.	in nature	2.011639629795507
+What is used to store the data and program?	Memory unit is used to store the data and program.	memory unit	1.9659061917026681
+What is Computer?	Computer is a digital device, which works on two levels of signal.	a digital device	1.9490197405129293
+What is the mathematical system knows as?	All thefunctionalities of computer can be captured with 0 and 1 and its theoretical background corresponds to two valuedWith the symbol 0 and 1, we have a mathematical system, which is knows as binary number system.	as binary number system	1.9451350017202806
+What is one convention known as?	This is one convention, which is known as positive logic.	as positive logic	1.9210659525184348
+What is one convention?	This is one convention, which is known as positive logic.	this	1.8609945415091027
+What are the analog signals?	The analog signals are continuousin nature and digital signals are discrete in nature.	continuousin nature	1.8421258202433473
+What does computer work with?	The basic functional units of computer are made of electronics circuit and it works with electrical signal.	with electrical signal	1.7801167105497386
+Are instructions needed to take input fromWe need some other instructions to perform the output tasks for example?	For example instructions are needed to take input fromWe need some other instructions to perform the output tasks.	1.727608181660345
+Who say these two levels of signal as Highand Low?	We say these two levels of signal as Highand Low.	we	1.7151698629017669
+Does the CPU of the IAScomputer consist of a data processing unit and a program control unit?	The CPU of the IAScomputer consists of a data processing unit and a program control unit.		1.682305189691117
+May CPU have some additional registers for temporary storage of data in addition?	In addition, CPU may have some additional registers for temporary storage of data.		1.6205515978730207
+Is the structure of IAS computer shown in the next page?	The structure of IAS computer is shown in the next page.		1.5371004810271423
+Are CPU known as register?	Some of them are inside CPU, which are known as register.		1.5334538357284186
+Is Thisinformation basically strings of 0s and 1s?	Thisinformation is basically strings of 0s and 1s.		1.5168761204087642
+Who need more storage space for proper functioning of the Computer in computer?	But in computer, we need more storage space for proper functioning of the Computer.	we	1.502857995606969
+What do we need more storage space for proper functioning of the Computer in?	But in computer, we need more storage space for proper functioning of the Computer.	in computer	1.4679809768296241
+Does size of address bus depend on the memory size?	Size of address bus depends on the memory size.		1.4293103536867084
+Is other bigger junk of storage space known asprimary memory or main memory?	Other bigger junk of storage space is known asprimary memory or main memory.		1.4280029058168457
+Are the basic functional units of computer made of electronics circuit?	The basic functional units of computer are made of electronics circuit and it works with electrical signal.		1.4081743689610398
+What do we need in computer?	But in computer, we need more storage space for proper functioning of the Computer.	more storage space for proper functioning of the Computer	1.4065286225127784
+Does the digital device work on two levels of signal?	Computer is a digital device, which works on two levels of signal.		1.3990118485770764
+What do we say these two levels of?	We say these two levels of signal as Highand Low.	of signal as Highand Low	1.357754850895319
+Is the mathematical system knows as binary number system?	All thefunctionalities of computer can be captured with 0 and 1 and its theoretical background corresponds to two valuedWith the symbol 0 and 1, we have a mathematical system, which is knows as binary number system.		1.351925294549134
+Who can storeinformation in memory so that CPU can use it with the help of input devices?	With the help of input devices we can storeinformation in memory so that CPU can use it.	we	1.3496189393843028
+Who can differentiate these two operations with the help of one signal line?	With the help of one signal line, we can differentiate these two operations.	we	1.334861278304441
+How many new instructios can we design 8 newWe have added?	So, we can design 8 newWe have added 6 new instructios.	6 new instructios	1.3243700480827871
+Is Computer a digital device?	Computer is a digital device, which works on two levels of signal.		1.3159975370585468
+How many operations can we differentiate with the help of one signal line?	With the help of one signal line, we can differentiate these two operations.	these two operations	1.314591972667305
+Who can design 8 newWe have added 6 new instructios?	So, we can design 8 newWe have added 6 new instructios.	we	1.311595866826866
+What has this rapid rate of improvement come from in computer design?	This rapid rate of improvement has come both from advances in the technology used to build computers andfrom innovation in computer design.	both from advances in the technology used to build computers andfrom innovation	1.2637013033440492
+Who need some more instruction to work with the computer?	We need some more instruction to work with the computer.	we	1.2416244436729844
+What has this rapid rate of improvement come both from advances in the technology used to build computers andfrom innovation in?	This rapid rate of improvement has come both from advances in the technology used to build computers andfrom innovation in computer design.	in computer design	1.2321501438050677
+What is this done by to work with memory?	This is done by address of theWe need two operation to work with memory.	by address of theWe need two operation	1.2225879795167827
+Are digital signals discrete in nature?	The analog signals are continuousin nature and digital signals are discrete in nature.		1.2132631262972322
+Is one convention known as positive logic?	This is one convention, which is known as positive logic.		1.1964980671047054
+What can we differentiate with the help of one signal line?	With the help of one signal line, we can differentiate these two operations.	these two operations	1.1862933552241999
+What can we differentiate these two operations with?	With the help of one signal line, we can differentiate these two operations.	with the help of one signal line	1.1826094877986817
+What are some of them inside?	Some of them are inside CPU, which are known as register.	inside CPU	1.1788239762540265
+Are the analog signals continuousin nature?	The analog signals are continuousin nature and digital signals are discrete in nature.		1.1719783981081298
+What can we design have added 6 new instructios?	So, we can design 8 newWe have added 6 new instructios.	8 newWe	1.134411506337735
+What can we design 8 newWe have added?	So, we can design 8 newWe have added 6 new instructios.	6 new instructios	1.116785845697152
+What can we storeinformation in memory so that CPU can use it with?	With the help of input devices we can storeinformation in memory so that CPU can use it.	with the help of input devices	1.1056555310812786
+Does computer work with electrical signal?	The basic functional units of computer are made of electronics circuit and it works with electrical signal.		1.0965995712327334
+What do we say?	We say these two levels of signal as Highand Low.	these two levels of signal as Highand Low	1.0952198304671446
+Is memory unit used to store the data and program?	Memory unit is used to store the data and program.		1.090481143802367
+What is this memory unit termed as?	This memory unit is termed as primary memory or main memory module.	as primary memory or main memory module	1.0651888757458257
+What can we storeinformation in so that CPU can use it with the help of input devices?	With the help of input devices we can storeinformation in memory so that CPU can use it.	in memory	1.019556351719289
+Who need some connection?	To transfer the data from CPU to memory module and vice-versa, we need some connection.	we	0.838271364026592
+What does it work with?	The basic functional units of computer are made of electronics circuit and it works with electrical signal.	with electrical signal	0.779720117009123
+What do we need?	To transfer the data from CPU to memory module and vice-versa, we need some connection.	some connection	0.7427026690849463
+Who have a mathematical system?	All thefunctionalities of computer can be captured with 0 and 1 and its theoretical background corresponds to two valuedWith the symbol 0 and 1, we have a mathematical system, which is knows as binary number system.	we	0.7386765025300466
+What do we have?	All thefunctionalities of computer can be captured with 0 and 1 and its theoretical background corresponds to two valuedWith the symbol 0 and 1, we have a mathematical system, which is knows as binary number system.a mathematical system	0.6414212747519328
+Do we say these two levels of signal as Highand Low?	We say these two levels of signal as Highand Low.		0.5698035720979084
+Has this rapid rate of improvement come both from advances in the technology used to build computers andfrom innovation in computer design?	This rapid rate of improvement has come both from advances in the technology used to build computers andfrom innovation in computer design.		0.5224524827971
+Do we need more storage space for proper functioning of the Computer in computer?	But in computer, we need more storage space for proper functioning of the Computer.		0.5204731214981635
+What is this?	This is one convention, which is known as positive logic.	one convention	0.48805972032062095
+Is this memory unit termed as primary memory or main memory module?	This memory unit is termed as primary memory or main memory module.		0.4827434890504776
+Are some of them inside CPU?	Some of them are inside CPU, which are known as register.		0.4137077132686966
+Can we design 8 newWe have added 6 new instructios?	So, we can design 8 newWe have added 6 new instructios.		0.3458412333741916
+Can we differentiate these two operations with the help of one signal line?	With the help of one signal line, we can differentiate these two operations.		0.32513051008144656
+Can we storeinformation in memory so that CPU can use it with the help of input devices?	With the help of input devices we can storeinformation in memory so that CPU can use it.		0.3111548534375608
+Do we need some more instruction to work with the computer?	We need some more instruction to work with the computer.		0.26880240368197184
+Is this done by address of theWe need two operation to work with memory?	This is done by address of theWe need two operation to work with memory.		0.21096033734663866
+Does it work with electrical signal?	The basic functional units of computer are made of electronics circuit and it works with electrical signal.		0.10594024596584406
+Do we need some connection?	To transfer the data from CPU to memory module and vice-versa, we need some connection.		9.678286873748831E-5
+Do we have a mathematical system?	All thefunctionalities of computer can be captured with 0 and 1 and its theoretical background corresponds to two valuedWith the symbol 0 and 1, we have a mathematical system, which is knows as binary number system.		-0.07455294305094418
+Is this one convention?	This is one convention, which is known as positive logic.		-0.08373174123676463
