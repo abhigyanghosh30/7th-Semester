@@ -1,5 +1,6 @@
 import re
-with open('questions.txt') as f:
+import sys
+with open(sys.argv[1]) as f:
     total = 0
     count = 0
     for line in f.readlines():
