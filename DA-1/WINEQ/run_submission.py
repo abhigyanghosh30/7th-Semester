@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.metrics import f1_score
 from submission import Submission
 
-sub = Submission('train.csv', 'test_sort.csv')
+sub = Submission('train.csv', 'test_uniq_sort.csv')
 sub.predict()
 actual = pd.read_csv('test_cheat_sort.csv')
 pred = pd.read_csv('submission.csv')

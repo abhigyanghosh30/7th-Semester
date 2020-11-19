@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier, VotingClassifier, GradientBoostingClassifier, AdaBoostClassifier
+from sklearn.ensemble import RandomForestClassifier, VotingClassifier, GradientBoostingClassifier, AdaBoostClassifier, BaggingClassifier
 from sklearn.neural_network import MLPClassifier
 
 
@@ -21,7 +21,7 @@ class Submission():
 
         # Preprocessing
         s = StandardScaler()
-        pca = PCA(n_components=9, whiten=True, random_state=101)
+        pca = PCA(n_components=8, whiten=True)
         X_train = s.fit_transform(X_train)
         X_train = pca.fit_transform(X_train)
         self.test_data = s.transform(self.test_data)
@@ -32,16 +32,19 @@ class Submission():
         # Train the model
         # clf1 = DecisionTreeClassifier(criterion='gini', max_depth=None, random_state=0)  # 0.607
         # classifier = KNeighborsClassifier(
-        #     algorithm='ball_tree', leaf_size=12, n_neighbors=50, p=1, weights='distance')  # 0.673
+        #     algorithm='ball_tree', n_neighbors=175, weights='distance')  # 0.673
         classifier = RandomForestClassifier(
-            criterion='entropy', max_depth=None,  min_samples_split=2, n_estimators=175)  # 0.696
+            criterion='gini', max_depth=None,  min_samples_split=2, n_estimators=175)  # 0.696
+
+        # clf1 = RandomForestClassifier(n_estimators=175, min_samples_split=5, min_samples_leaf=2,
+        #   max_features = 'auto', max_depth = None, criterion = 'entropy', class_weight = 'balanced', bootstrap = False)
         # classifier = GradientBoostingClassifier(n_estimators=400, max_depth=10) #0.681
         # classifier = VotingClassifier(estimators=[('knn', clf1), ('dt', clf2), ('rf', clf3)], voting='soft', weights=[0.673, 0.607, 0.696]) # 0.643
         # clf1 = clf1.fit(X_train, y_train)
         # clf2 = clf2.fit(X_train, y_train)
         # clf3 = clf3.fit(X_train, y_train)
-        # classifier = AdaBoostClassifier(
-        #     base_estimator=clf1, n_estimators=500, learning_rate=0.1, random_state=101)  # 0.609
+        # classifier = BaggingClassifier(
+        #     base_estimator=clf1, n_estimators=150, n_jobs=-1)  # 0.609
 
         # classifier = MLPClassifier(solver='lbfgs', activation='relu',
         #                            alpha=10**-5, hidden_layer_sizes=(50, 25, 10, 5), random_state=1)  # 0.553
@@ -50,4 +53,5 @@ class Submission():
         # Predict on test set and save the prediction
         submission = classifier.predict(self.test_data)
         submission = pd.DataFrame(submission)
-        submission.to_csv('submission.csv', header=['quality'], index=False)
+        submission.to_csv('submission.csv', header=[
+                          'quality'], index=False)
