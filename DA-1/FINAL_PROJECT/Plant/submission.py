@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier, VotingClassifier, GradientBoostingClassifier, AdaBoostClassifier, BaggingClassifier
+from sklearn.ensemble import RandomForestClassifier, VotingClassifier, GradientBoostingClassifier, AdaBoostClassifier, BaggingClassifier, StackingClassifier
 from sklearn.neural_network import MLPClassifier
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 
@@ -24,7 +24,11 @@ pca.fit_transform(X_train)
 
 
 # Train the model
-classifier = RandomForestClassifier(n_estimators=1000)
+models = [('rf', RandomForestClassifier(n_estimators=1000, random_state=42)),
+          ('svr', KNeighborsClassifier(n_neighbors=100))]
+
+classifier = StackingClassifier(
+    estimators=models, final_estimator=LinearDiscriminantAnalysis())
 classifier.fit(X_train, y_train)
 
 # Predict on the test set

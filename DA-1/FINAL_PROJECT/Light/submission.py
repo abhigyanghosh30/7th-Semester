@@ -2,7 +2,11 @@ import os
 import pandas as pd
 import numpy as np
 from sklearn.decomposition import PCA
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier, StackingClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.svm import SVC
+from sklearn.tree import DecisionTreeClassifier
 
 # Train and test data paths will be available as env variables during evaluation
 TRAIN_DATA_PATH = os.getenv("TRAIN_DATA_PATH", default='./train.csv')
@@ -16,7 +20,11 @@ X_train, y_train = train_data.iloc[:, :-1], train_data.iloc[:, -1]
 
 # Train the model
 # classifier = SVC(gamma='auto')
-classifier = RandomForestClassifier(n_estimators=2000)
+models = [('rf', RandomForestClassifier(n_estimators=1000, random_state=42)),
+          ('svr', DecisionTreeClassifier())]
+
+classifier = StackingClassifier(
+    estimators=models, final_estimator=SVC())
 classifier.fit(X_train, y_train)
 
 # Predict on the test set
