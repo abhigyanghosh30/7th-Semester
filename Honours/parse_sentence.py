@@ -4,6 +4,17 @@ stopwords = {"अंदर", "अत", "अदि", "अप", "अपना", "�
 hindi_doc = open('input.txt', 'r').readlines()
 
 
+def get_rhyme_score(word1, word2):
+    i = len(word1)-1
+    j = len(word2)-1
+    count = 0
+    while(word1[i] == word2[j]):
+        i -= 1
+        j -= 1
+        count += 1
+    return count
+
+
 def get_synonyms(word):
     word2Synset = pickle.load(
         open("python-hindi-wordnet/hindi_wordnet_python/WordSynsetDict.pk", 'rb'))
@@ -15,12 +26,16 @@ def get_synonyms(word):
         for pos in synsets.keys():
             for synset in synsets[pos]:
                 if synset in synonyms:
-                    return synonyms[synset]
+                    return synonyms[synset]['1']
 
 
 if __name__ == "__main__":
+    synlists = []
     for sentence in hindi_doc:
+        sentlist = []
         for words in sentence.strip().split(' '):
-            print(words)
             if words not in stopwords:
-                print(get_synonyms(words))
+                sentlist.append(get_synonyms(words))
+        synlists.append(sentlist)
+    print(synlists)
+    rhyming_words = [0*len(synlists)]
